@@ -4,6 +4,7 @@ body{
     color: white;
 }
 .krquiz{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -15,15 +16,32 @@ body{
 
 .inputbox{
     background-color: black;
-    color: white;
+    /* color: white; */
     width: 30vh; 
     height: 1.25em;
-    border-radius: 10px;
-    border-color: white;
     text-align: center;
     font-size: 1em;
+    border-radius: 8%;
+    border-style: solid;
+    border-color: white;
 }
 
-.inputbox input{
-    padding-left: 123em;
+.character{
+    margin-bottom: 6vh;
+    border-radius: 8%;
+    border-style: solid;
+    height:30vh;
+    width: 30vh;
+    display: flex;
+    align-items: center; 
+    font-size: 5vh;
+    justify-content: center;
+    color: white;
+}
+
+.hint{
+    margin-top: 5vh;
+    align-items: center;
+    cursor: pointer;
+    
 }
