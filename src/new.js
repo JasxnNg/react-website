@@ -54,14 +54,13 @@ const hangulRomanization = [
   }
 
   function checkRomanization(){
-      const hira = document.getElementById('stuff').value.toLowerCase();
-      if (hira == currentchar.romanization){
+      const hang = document.getElementById('stuff').value.toLowerCase();
+      if (hang == currentchar.romanization){
           document.getElementById('stuff').value = '';
           randomchar();
       }
    } 
-
-  randomchar();
-  function hint() {
-      
+  function hint(){
+    
   }
+  randomchar();

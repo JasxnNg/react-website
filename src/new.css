@@ -66,8 +66,8 @@ body{
 .navbar a::before{
     content: '';
     position: absolute;
-    left: 0; 
-    top: 100%;
+    left: 50%; 
+    top: 105%;
     height:100%; 
     background:150%;
     width:0%;
@@ -85,5 +85,45 @@ body{
     width: 100px; */
 }
 .navbar a:hover::before{
+    left:0;
     width:100%;
 }
+
+.bod{
+    margin-top: 7%;
+    color: white; 
+    align-items: center;
+    margin-left: 5%;
+    font-size: 16px;
+}
+table {
+    width: 60%;
+}
+thead th {
+    width:10%;
+}
+td {
+    width:10%
+    
+}
+tbody td{
+    text-align: center;
+}
+.hi{
+    margin-top: 5%;
+}
+
+.herebutton{
+    text-decoration: none;
+    color:white;
+
+}
+
+
+/* .herebutton a:visited{
+    color: white;
+}
+
+.herebutton a:hover{
+
+} */
