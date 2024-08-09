@@ -44,7 +44,7 @@ const hangulRomanization = [
   ];
 
   let currentchar = {};
-
+  document.getElementById('answer').innerHTML = "Get Answer";
   function randomchar(){
       const randomind = Math.floor(Math.random() * hangulRomanization.length);
       currentchar = hangulRomanization[randomind];
@@ -59,8 +59,12 @@ const hangulRomanization = [
           document.getElementById('stuff').value = '';
           randomchar();
       }
+      if (document.getElementById('answer').innerHTML != currentchar.romanization){
+        document.getElementById('answer').innerHTML = "get answer";
+      }
    } 
   function hint(){
-    
+    document.getElementById('answer').innerHTML = currentchar.romanization;
+
   }
   randomchar();
