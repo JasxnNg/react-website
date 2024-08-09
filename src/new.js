@@ -61,7 +61,7 @@ const hangulRomanization = [
       }
    } 
 
-   randomchar();
+  randomchar();
   function hint() {
       
   }

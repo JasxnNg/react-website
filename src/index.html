@@ -6,12 +6,16 @@
         <!-- comment this out soon -->
         <link rel="stylesheet" href="new.css">
         <title>
-            Are we learning Korean yet?
+            泡菜哥
         </title>
     </head>
     <body>
-        
-   
+        <header class = "header"> 
+            <nav class = "navbar" >
+                <a class ="a" href="">Home</a>
+                <a class = "a" href="reference.html">Reference</a>
+            </nav>
+        </header>   
     
  
         <div class = "krquiz">
@@ -20,11 +24,11 @@
                 
             </div>
             <div class ="input">
-                <input type ="text" class = "inputbox" placeholder="Type romanization here" id ="stuff" oninput= "checkRomanization()" >
+                <input type ="text" class = "inputbox"  id ="stuff" oninput= "checkRomanization()" >
                 
             </div>
 
-            <button class="button hint" onclick="">Click Me!</button>
+            <button class="button hint" onclick="hint()">Get Answer</button>
         </div>
     </body>
 
